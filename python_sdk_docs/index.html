@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>AdvaScope Python SDK 0.0.3 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinxdoc.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="nav-item nav-item-0"><a href="#">AdvaScope Python SDK 0.0.3 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">AdvaScope Python SDK 0.0.3 documentation</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <section id="welcome-to-advascope-python-sdk-s-documentation">
+<h1>Welcome to AdvaScope Python SDK’s documentation!<a class="headerlink" href="#welcome-to-advascope-python-sdk-s-documentation" title="Permalink to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<span class="target" id="module-advs"></span><dl class="py class">
+<dt class="sig sig-object py" id="advs.Device">
+<em class="property"><span class="pre">class</span><span class="w">  </span></em><span class="sig-name descname"><span class="pre">Device</span></span><a class="headerlink" href="#advs.Device" title="Permalink to this definition">¶</a></dt>
+<dd><p>Device object. Use its attributes to access functionality:</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="advs.Device.bias">
+<span class="sig-name descname"><span class="pre">bias</span></span><a class="headerlink" href="#advs.Device.bias" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="#bias.__Bias" title="bias.__Bias"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__Bias</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="advs.Device.board">
+<span class="sig-name descname"><span class="pre">board</span></span><a class="headerlink" href="#advs.Device.board" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="#board.__Board" title="board.__Board"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__Board</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="advs.Device.chip">
+<span class="sig-name descname"><span class="pre">chip</span></span><a class="headerlink" href="#advs.Device.chip" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="#chip.__Chip" title="chip.__Chip"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__Chip</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="advs.Device.configuration">
+<span class="sig-name descname"><span class="pre">configuration</span></span><a class="headerlink" href="#advs.Device.configuration" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="#configuration.__Configuration" title="configuration.__Configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__Configuration</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="advs.Device.trigger">
+<span class="sig-name descname"><span class="pre">trigger</span></span><a class="headerlink" href="#advs.Device.trigger" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="#trigger.__Trigger" title="trigger.__Trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__Trigger</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="advs.Device.extsync">
+<span class="sig-name descname"><span class="pre">extsync</span></span><a class="headerlink" href="#advs.Device.extsync" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="#extsync.__ExtSync" title="extsync.__ExtSync"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__ExtSync</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="advs.Device.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#advs.Device.close" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="advs.Device.isOpened">
+<span class="sig-name descname"><span class="pre">isOpened</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#advs.Device.isOpened" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="advs.Device.open">
+<span class="sig-name descname"><span class="pre">open</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">locator</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#advs.Device.open" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="advs.Device.setLogFunction">
+<span class="sig-name descname"><span class="pre">setLogFunction</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#advs.Device.setLogFunction" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-acquisition"></span><dl class="py class">
+<dt class="sig sig-object py" id="acquisition.__Acquisition">
+<em class="property"><span class="pre">class</span><span class="w">  </span></em><span class="sig-name descname"><span class="pre">__Acquisition</span></span><a class="headerlink" href="#acquisition.__Acquisition" title="Permalink to this definition">¶</a></dt>
+<dd><p>Acquisition object.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="acquisition.__Acquisition.abort">
+<span class="sig-name descname"><span class="pre">abort</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">channelId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#acquisition.__Acquisition.abort" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="acquisition.__Acquisition.begin">
+<span class="sig-name descname"><span class="pre">begin</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">channelId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#acquisition.__Acquisition.begin" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="acquisition.__Acquisition.end">
+<span class="sig-name descname"><span class="pre">end</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">channelId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#acquisition.__Acquisition.end" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="acquisition.__Acquisition.getChannelCount">
+<span class="sig-name descname"><span class="pre">getChannelCount</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#acquisition.__Acquisition.getChannelCount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="acquisition.__Acquisition.getChannelId">
+<span class="sig-name descname"><span class="pre">getChannelId</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">channelIdx</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#acquisition.__Acquisition.getChannelId" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="acquisition.__Acquisition.setDataCallback">
+<span class="sig-name descname"><span class="pre">setDataCallback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">channelId</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">func</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#acquisition.__Acquisition.setDataCallback" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-bias"></span><dl class="py class">
+<dt class="sig sig-object py" id="bias.__Bias">
+<em class="property"><span class="pre">class</span><span class="w">  </span></em><span class="sig-name descname"><span class="pre">__Bias</span></span><a class="headerlink" href="#bias.__Bias" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bias object.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="bias.__Bias.getBias">
+<span class="sig-name descname"><span class="pre">getBias</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">biasId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bias.__Bias.getBias" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bias.__Bias.getBiasRange">
+<span class="sig-name descname"><span class="pre">getBiasRange</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">biasId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bias.__Bias.getBiasRange" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bias.__Bias.getSupplyCount">
+<span class="sig-name descname"><span class="pre">getSupplyCount</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bias.__Bias.getSupplyCount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bias.__Bias.getSupplyId">
+<span class="sig-name descname"><span class="pre">getSupplyId</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">biasIdx</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bias.__Bias.getSupplyId" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="bias.__Bias.setBias">
+<span class="sig-name descname"><span class="pre">setBias</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">biasId</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">volts</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bias.__Bias.setBias" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-board"></span><dl class="py class">
+<dt class="sig sig-object py" id="board.__Board">
+<em class="property"><span class="pre">class</span><span class="w">  </span></em><span class="sig-name descname"><span class="pre">__Board</span></span><a class="headerlink" href="#board.__Board" title="Permalink to this definition">¶</a></dt>
+<dd><p>Board object.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="board.__Board.getCount">
+<span class="sig-name descname"><span class="pre">getCount</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#board.__Board.getCount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="board.__Board.getId">
+<span class="sig-name descname"><span class="pre">getId</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">boardIdx</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#board.__Board.getId" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="board.__Board.isPowered">
+<span class="sig-name descname"><span class="pre">isPowered</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">boardId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#board.__Board.isPowered" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="board.__Board.powerOff">
+<span class="sig-name descname"><span class="pre">powerOff</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">boardId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#board.__Board.powerOff" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="board.__Board.powerOn">
+<span class="sig-name descname"><span class="pre">powerOn</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">boardId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#board.__Board.powerOn" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-configuration"></span><dl class="py class">
+<dt class="sig sig-object py" id="configuration.__Configuration">
+<em class="property"><span class="pre">class</span><span class="w">  </span></em><span class="sig-name descname"><span class="pre">__Configuration</span></span><a class="headerlink" href="#configuration.__Configuration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Configuration object.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="configuration.__Configuration.getFactoryCount">
+<span class="sig-name descname"><span class="pre">getFactoryCount</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#configuration.__Configuration.getFactoryCount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="configuration.__Configuration.getFactoryName">
+<span class="sig-name descname"><span class="pre">getFactoryName</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">factoryIdx</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#configuration.__Configuration.getFactoryName" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="configuration.__Configuration.load">
+<span class="sig-name descname"><span class="pre">load</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">factoryName</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#configuration.__Configuration.load" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-extsync"></span><dl class="py class">
+<dt class="sig sig-object py" id="extsync.__ExtSync">
+<em class="property"><span class="pre">class</span><span class="w">  </span></em><span class="sig-name descname"><span class="pre">__ExtSync</span></span><a class="headerlink" href="#extsync.__ExtSync" title="Permalink to this definition">¶</a></dt>
+<dd><p>External sync object.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="extsync.__ExtSync.getOptionCount">
+<span class="sig-name descname"><span class="pre">getOptionCount</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#extsync.__ExtSync.getOptionCount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="extsync.__ExtSync.getOptionId">
+<span class="sig-name descname"><span class="pre">getOptionId</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">optionIdx</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#extsync.__ExtSync.getOptionId" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="extsync.__ExtSync.selectOption">
+<span class="sig-name descname"><span class="pre">selectOption</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">optionId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#extsync.__ExtSync.selectOption" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-trigger"></span><dl class="py class">
+<dt class="sig sig-object py" id="trigger.__Trigger">
+<em class="property"><span class="pre">class</span><span class="w">  </span></em><span class="sig-name descname"><span class="pre">__Trigger</span></span><a class="headerlink" href="#trigger.__Trigger" title="Permalink to this definition">¶</a></dt>
+<dd><p>Trigger object.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="trigger.__Trigger.getModeCount">
+<span class="sig-name descname"><span class="pre">getModeCount</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#trigger.__Trigger.getModeCount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="trigger.__Trigger.getModeId">
+<span class="sig-name descname"><span class="pre">getModeId</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trigger.__Trigger.getModeId" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="trigger.__Trigger.selectMode">
+<span class="sig-name descname"><span class="pre">selectMode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">modeId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trigger.__Trigger.selectMode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="trigger.__Trigger.setShutterDuration">
+<span class="sig-name descname"><span class="pre">setShutterDuration</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">duration</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trigger.__Trigger.setShutterDuration" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="trigger.__Trigger.trigger">
+<span class="sig-name descname"><span class="pre">trigger</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#trigger.__Trigger.trigger" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-chip"></span><dl class="py class">
+<dt class="sig sig-object py" id="chip.__Chip">
+<em class="property"><span class="pre">class</span><span class="w">  </span></em><span class="sig-name descname"><span class="pre">__Chip</span></span><a class="headerlink" href="#chip.__Chip" title="Permalink to this definition">¶</a></dt>
+<dd><p>Chip object.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getChipCount">
+<span class="sig-name descname"><span class="pre">getChipCount</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getChipCount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getChipId">
+<span class="sig-name descname"><span class="pre">getChipId</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">chipIdx</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getChipId" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getDacCount">
+<span class="sig-name descname"><span class="pre">getDacCount</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getDacCount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getDacLimits">
+<span class="sig-name descname"><span class="pre">getDacLimits</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dacId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getDacLimits" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getDacName">
+<span class="sig-name descname"><span class="pre">getDacName</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dacIdx</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getDacName" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getDacValue">
+<span class="sig-name descname"><span class="pre">getDacValue</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dacId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getDacValue" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getModeCount">
+<span class="sig-name descname"><span class="pre">getModeCount</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getModeCount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getModeId">
+<span class="sig-name descname"><span class="pre">getModeId</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">modeIdx</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getModeId" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getRawThreshold">
+<span class="sig-name descname"><span class="pre">getRawThreshold</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">thresholdId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getRawThreshold" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getRawThresholdRange">
+<span class="sig-name descname"><span class="pre">getRawThresholdRange</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">thresholdId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getRawThresholdRange" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getSenseDacCount">
+<span class="sig-name descname"><span class="pre">getSenseDacCount</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getSenseDacCount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getSenseDacName">
+<span class="sig-name descname"><span class="pre">getSenseDacName</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">senseDacIdx</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getSenseDacName" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getThreshold">
+<span class="sig-name descname"><span class="pre">getThreshold</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">thresholdId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getThreshold" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getThresholdCount">
+<span class="sig-name descname"><span class="pre">getThresholdCount</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getThresholdCount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getThresholdRange">
+<span class="sig-name descname"><span class="pre">getThresholdRange</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">thresholdId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getThresholdRange" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.getTresholdId">
+<span class="sig-name descname"><span class="pre">getTresholdId</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">thresholdIdx</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.getTresholdId" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.isThresholdCalibrated">
+<span class="sig-name descname"><span class="pre">isThresholdCalibrated</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">thresholdId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.isThresholdCalibrated" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.refresh">
+<span class="sig-name descname"><span class="pre">refresh</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.refresh" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.selectMode">
+<span class="sig-name descname"><span class="pre">selectMode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">modeId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.selectMode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.selectSenseDac">
+<span class="sig-name descname"><span class="pre">selectSenseDac</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">senseDacId</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.selectSenseDac" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.setDacValue">
+<span class="sig-name descname"><span class="pre">setDacValue</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dacId</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dacValue</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.setDacValue" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.setRawThreshold">
+<span class="sig-name descname"><span class="pre">setRawThreshold</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">thresholdId</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.setRawThreshold" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="chip.__Chip.setThreshold">
+<span class="sig-name descname"><span class="pre">setThreshold</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">thresholdId</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#chip.__Chip.setThreshold" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="nav-item nav-item-0"><a href="#">AdvaScope Python SDK 0.0.3 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">AdvaScope Python SDK 0.0.3 documentation</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023, Martin Kačenga, Radek Ševčík.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.0.
+    </div>
+  </body>
+</html>
